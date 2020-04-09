@@ -1,0 +1,226 @@
+{
+    "quiz2": [{
+            "question": "What is your name?",
+            "type": "multiple choice",
+            "choices": ["Jackie", "Bob", "Sarah"],
+            "answer": "Jackie",
+            "reason": "Your name is Jackie!!!"
+        },
+        {
+            "question": "How old are you?",
+            "type": "multiple choice",
+            "choices": [18, 19, 20, 21],
+            "answer": 21,
+            "reason": "You're 21!!!"
+        },
+        {
+            "question": "Strawberries are your fav",
+            "type": "true false",
+            "choices": ["true", "false"],
+            "answer": "true",
+            "reason": "Strawberries!"
+        },
+        {
+            "question": "You love chocolate",
+            "type": "true false",
+            "choices": ["true", "false"],
+            "answer": "false",
+            "reason": "Not all the time"
+        },
+        {
+            "question": "Who's the best?",
+            "type": "short answer",
+            "choices": [],
+            "answer": "sarah",
+            "reason": "Cmon, your best friend???"
+        },
+        {
+            "question": "How many sisters do you have?",
+            "type": "short answer",
+            "choices": [],
+            "answer": 2,
+            "reason": "Winnie and Janie???"
+        },
+        {
+            "question": "which is squidward?",
+            "type": "pictures",
+            "choices": ["./assets/pictures/handsome_squidward.jpg", "https://vignette.wikia.nocookie.net/spongebob/images/d/d7/SpongeBob_stock_art.png/revision/latest?cb=20190921125147"],
+            "answer": "./assets/pictures/handsome_squidward.jpg",
+            "reason": "Look at him!! he's handsome!"
+        },
+        {
+            "question": "Fill in the blank",
+            "type": "fill in",
+            "choices": [
+                ["A(n)", "", "is an instantiation of a", ""]
+            ],
+            "answer": ["object", "class"],
+            "reason": ["its an object", "its a class"]
+        },
+        {
+            "question": "Fill in the blank",
+            "type": "fill in",
+            "choices": [
+                ["Strawberry", "", "is the best."],
+                ["", "is the best.", ""]
+            ],
+            "answer": ["object", "class", "idk"],
+            "reason": ["its an object", "its a class", "idk"]
+        }
+    ],
+
+    "quiz1": [{
+            "question": "What does HTML stand for?",
+            "type": "multiple choice",
+            "choices": ["Website", "Hypertext Markup Language", "Cascading Style Sheets", "How To Make Layouts"],
+            "answer": "Hypertext Markup Language",
+            "reason": "HTML stands for Hypertext Markup Language."
+        },
+        {
+            "question": "What is HTML primarily used for?",
+            "type": "multiple choice",
+            "choices": ["Create websites", "Style elements", "Manipulate elements", "Update Elements"],
+            "answer": "Create websites",
+            "reason": "HTML is used to create websites that are displayed on the world wide web."
+        },
+        {
+            "question": "CSS stands for Cascading Style Sheets.",
+            "type": "true false",
+            "choices": ["True", "False"],
+            "answer": "True",
+            "reason": "CSS is a style sheet language that allows you to augment HTML elements."
+        },
+        {
+            "question": "CSS is used to create elements.",
+            "type": "true false",
+            "choices": ["True", "False"],
+            "answer": "False",
+            "reason": "CSS only manipulates the way HTML elements look."
+        },
+        {
+            "question": "What is the tag of the following HTML element: <h1 id='test' class='tag'>Hello World</h1>",
+            "type": "short answer",
+            "choices": "",
+            "answer": "<h1>",
+            "reason": "Tags are defined inbetween the <> syntax. In this case it is <h1>"
+        },
+        {
+            "question": "What is the syntax for a function declaration?",
+            "type": "multiple choice",
+            "choices": ["const x = function(){}", "const y = () => {}", "function someName() {}"],
+            "answer": "function someName() {}",
+            "reason": "Function declarations are declared using the keyword function and then providing the name of the function, followed by the parameters and the body of the function."
+        },
+        {
+            "question": "What is the syntax for a function expression?",
+            "type": "multiple choice",
+            "choices": ["const x = function(){}", "const y = () => {}", "function someName() {}"],
+            "answer": "const x = function(){}",
+            "reason": "Function expressions are anonymous functions that are assigned to a variable."
+        },
+        {
+            "question": "What is the syntax for an arrow function?",
+            "type": "multiple choice",
+            "choices": ["const x = function(){}", "const y = () => {}", "function someName() {}"],
+            "answer": "const y = () => {}",
+            "reason": "Arrow functions are anonymous functions introduced in ES6 that uses () => {} syntax."
+        },
+        {
+            "question": "You can style elements in an HTML file.",
+            "type": "true false",
+            "choices": ["True", "False"],
+            "answer": "True",
+            "reason": "You are able to apply CSS styles within your HTML file through a <style> tag or with the inline style attribute."
+        },
+        {
+            "question": "How do you apply a CSS file to an HTML file?",
+            "type": "multiple choice",
+            "choices": ["<link> tag", "<script> tag", "<a> tag", "<head> tag"],
+            "answer": "<link> tag",
+            "reason": "You have you use a <link> tag and put the file's path into the link's href attribute."
+        },
+        {
+            "question": "Which one of the following produces the largest text?",
+            "type": "pictures",
+            "choices": ["./assets/pictures/webDev/h2.png", "./assets/pictures/webDev/h1.png", "./assets/pictures/webDev/h4.png", "./assets/pictures/webDev/h5.png"],
+            "answer": "./assets/pictures/webDev/h1.png",
+            "reason": "<h1> produces the largest font size, which gets smaller as the numbers increase."
+        },
+        {
+            "question": "What is the delimiter between pairs in CSS?",
+            "type": "short answer",
+            "choices": "",
+            "answer": ";",
+            "reason": "The semi-colon ';' is used as a delimiter to separate key:value pairs in CSS."
+        },
+        {
+            "question": "Fill in the blank.",
+            "type": "fill in",
+            "choices": [
+                ["CSS styles comprise of one or more", "", ":", "", "pairs."]
+            ],
+            "answer": ["key", "value"],
+            "reason": ["CSS utilizes key:value pairs to modify property of elements.", "CSS has key:value pairs that denotes the property to change and what to change it to."]
+        },
+        {
+            "question": "What tag do you use to create CSS styles within your HTML file? (use <> notation)",
+            "type": "short answer",
+            "choices": "",
+            "answer": "<style>",
+            "reason": "The <style> tag within the head of the HTML file specifies CSS styles."
+        },
+        {
+            "question": "Which one of the following creates a numbered list?",
+            "type": "pictures",
+            "choices": ["./assets/pictures/webDev/ul.png", "./assets/pictures/webDev/list.png", "./assets/pictures/webDev/tr.png", "./assets/pictures/webDev/ol.png"],
+            "answer": "./assets/pictures/webDev/ol.png",
+            "reason": "<ol> produces an ordered list that contains incrementing numbers."
+        },
+        {
+            "question": "Which one of the following creates a bulleted list?",
+            "type": "pictures",
+            "choices": ["./assets/pictures/webDev/tr.png", "./assets/pictures/webDev/list.png", "./assets/pictures/webDev/ul.png", "./assets/pictures/webDev/ol.png"],
+            "answer": "./assets/pictures/webDev/ul.png",
+            "reason": "<ol> produces an ordered list that contains incrementing numbers."
+        },
+        {
+            "question": "Fill in the blank to make this an asyncronous function.",
+            "type": "fill in",
+            "choices": [
+                ["", "function get_data() {"],
+                ["const response = ", "", "fetch(url)"],
+                ["const data = ", "", "response.json()"],
+                ["return data"],
+                ["}"]
+            ],
+            "answer": ["async", "await", "await"],
+            "reason": ["You need to declare that the function is an async function", "You need to use the keyword await to wait for the response to come back", "You need to use the keyword await to wait for the data to be parsed into json format"]
+        },
+        {
+            "question": "What does the following javascript code compute?",
+            "type": "short answer",
+            "choices": "./assets/pictures/a*a+b.png",
+            "answer": 11,
+            "reason": "3*3 = 9+2 = 11"
+        },
+        {
+            "question": "What should __someKeyword__ be replaced by to make the following code run only after the page is fully loaded?",
+            "type": "short answer",
+            "choices": "./assets/pictures/webDev/domcontentloaded.png",
+            "answer": "DOMContentLoaded",
+            "reason": "DOMContentLoaded tells the document to only run the javascript code once the HTML file is fully loaded."
+        },
+        {
+            "question": "Fill in the blank to make the following input a textbox.",
+            "type": "fill in",
+            "choices": [
+                ["<form>"],
+                ["<input type=", "", "></input>"],
+                ["</form>"]
+            ],
+            "answer": ["text"],
+            "reason": ["type = text tells the HTML to create a textbox as an input element."]
+        }
+    ]
+
+}
