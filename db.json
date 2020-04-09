@@ -1,5 +1,5 @@
 {
-    "quiz1": [{
+    "quiz2": [{
             "question": "What does HTML stand for?",
             "type": "multiple choice",
             "choices": ["Website", "Hypertext Markup Language", "Cascading Style Sheets", "How To Make Layouts"],
@@ -152,5 +152,4 @@
             "reason": ["type = text tells the HTML to create a textbox as an input element."]
         }
     ]
-
 }
