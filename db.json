@@ -131,7 +131,7 @@
             "question": "What does the following Python code compute?",
             "type": "short answer",
             "choices": "./assets/pictures/cs/python snippet.png",
-            "answer": 0,
+            "answer": "0",
             "reason": "The for loop runs 10 times and continously subtracts 10 each from from 100, which makes total = 0."
         },
         {
