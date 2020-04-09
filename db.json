@@ -145,7 +145,7 @@
             "question": "Fill in the blank to make the loop compute 2^5.",
             "type": "fill in",
             "choices": [
-                ["answer = 1"]
+                ["answer = 1"],
                 ["", "x", "", "", "(5):"],
                 ["   answer *=", ""]
             ],
