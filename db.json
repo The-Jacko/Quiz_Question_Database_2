@@ -125,7 +125,7 @@
                 ["   print('False')"]
             ],
             "answer": ["==", "and", "==", ":", "else"],
-            "reason": ["To make the first condition True, x=2 so if x==2, then it would be true", "To concatenate two conditions you need to use the key word and to make sure both conditions are True", "To make the second condition True, since y=5, then you need to test if y==5", "To handle any False conditions, you need to use an else statement"]
+            "reason": ["To make the first condition True, x=2 so if x==2, then it would be true", "To concatenate two conditions you need to use the key word and to make sure both conditions are True", "To make the second condition True, since y=5, then you need to test if y==5", "You need a colon ':' at the end of an if statment", "To handle any False conditions, you need to use an else statement"]
         },
         {
             "question": "What does the following Python code compute?",
